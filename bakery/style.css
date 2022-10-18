@@ -1,0 +1,243 @@
+body{
+    background-color: rgb(193, 249, 193);
+}
+    button img{
+    position: fixed;
+    right: 0px;
+    top: 270px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px
+    }
+    .allPage{
+        margin: auto auto 10px auto;
+    }
+    .header{
+        margin: 0px -1px 0px -1px; 
+        height: 1000px;
+        width: 100%;
+    }
+        .mainImg img{
+            margin: auto;
+            height: 900px;
+            width: 100.2%;
+        }
+        .menuBar{
+            height: 45px;
+            width: 99.5%;
+            margin: -30px auto auto auto;
+            text-align: center;
+            font-size: 30pt; 
+            font-family: Arial, Helvetica, sans-serif;
+            position: fixed; 
+            background-color: #f07623;  
+            display: flex; 
+            direction: rtl;
+        }
+            .menuLogo img{
+                margin: 0px -40px 0px 0px;
+                border-radius: 10%;
+            }
+        a{
+            color: rgb(255, 255, 255);
+            margin: 40px;
+        }
+    .container{
+        height: auto;
+        margin: auto auto 20px auto;
+    } 
+        .about{
+            display: flex;
+            margin: 0px;
+            padding: 5px;
+            height: 800px;
+        }
+            .aboutImg img{
+                margin: auto;
+                flex: 4;
+                width: 90%;
+                height: 500px;
+                border-radius: 10%;
+            }
+            .aboutWords{
+                flex: 4;
+                text-align:justify;
+                direction: rtl;
+                height: 400px;
+                width: 100%;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 20pt;
+            }
+            .aboutUs{
+                flex: 1;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 22pt;
+            }
+        .products{
+            margin: -250px auto auto auto;
+            padding: 5px;
+            height: 500px;
+            width: 100%;
+        }
+            .boxes{
+                height: 600px;
+                width: 100%;
+                display: flex;
+                padding: 1px;
+                justify-content: space-around;
+                direction: rtl;
+                text-align: center;
+            /*    font-size: 20pt;*/
+            }
+            .boxes p{
+                font-size: 40pt;
+                margin: auto;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+                .box1 img{
+                    flex: 20;
+                    height: 300px;
+                    width: 100%;
+                    border-radius: 10%;
+                    margin: 0px 5px 0px 5px;
+                    padding: 10px;
+                }
+                .box2 img{
+                    flex: 20;
+                    height: 300px;
+                    width: 100%;
+                    border-radius: 10%;
+                    margin: 0px 5px 0px 5px;
+                    padding: 10px;
+                }
+                .box3 img{
+                    flex: 20;
+                    height: 300px;
+                    width: 100%;
+                    border-radius: 10%;
+                    margin: 0px 5px 0px 5px;
+                    padding: 10px;
+                }
+                .box4 img{
+                    flex: 20;
+                    height: 300px;
+                    width: 100%;
+                    border-radius: 10%;
+                    margin: 0px 5px 0px 5px;
+                    padding: 10px;
+                }
+                .box5 img{
+                    flex: 20;
+                    height: 300px;
+                    width: 100%;
+                    border-radius: 10%;
+                    margin: 0px 5px 0px 5px;
+                    padding: 10px;
+                }
+                .box6 img{
+                    flex: 20;
+                    height: 300px;
+                    width: 100%;
+                    border-radius: 10%;
+                    margin: 0px 5px 0px 5px;
+                    padding: 10px;
+                }
+                .ourProducts{
+                    font-size: 22pt;
+                    text-align: center;
+                    font-family: Arial, Helvetica, sans-serif;
+                }
+        .extras{
+            display: flex;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .extras h2{
+            font-size: 60pt;
+            text-align: center;
+        }
+                .catering{
+                    flex: 2;
+                    order: 1;
+                    direction: rtl;
+                    text-align: center;
+                }
+                    .catering p{
+                        font-size: 40pt;
+                    }
+                    .caterinImg img{
+                        border-radius: 5%;
+                    }
+                .promotion{
+                    flex: 2;
+                    order: 2;
+                    direction: rtl;
+                }
+                ul{
+                    font-size: 30pt;
+                    text-align: center;
+                }
+    .footer{
+        text-align: center;
+        height: 150px;
+        margin: 20px auto auto auto;
+    }
+    .headerPrudocts{
+        margin: 0px -1px 200px -1px; 
+        height: 1000px;
+        width: 100%;
+    }
+    .containerProducts{
+        height: auto;
+        margin: auto;
+    }
+    .containerAbout{
+        height: auto;
+        margin: auto; 
+        margin: auto auto 170px auto; 
+    }
+    .containerContact{
+        height: auto;
+        margin: auto;
+        text-align: center;
+    }
+    .containerContact h1{
+        font-size: 60pt;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .containerContact p{
+        font-size: 30pt;
+    }
+    #contact_form {
+    background-color: #405d27;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    height: auto;
+    }
+    .row label{
+    color: #FFFFFF;
+    font-size: 25pt;
+    margin-left: 10px;
+    }
+    input[type=text], textarea {
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 8%;
+    margin: auto 0;
+    color: #FFFFFF;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+    input[type=text] {
+    height: 25px;
+    }
+    input[type=submit] {
+    background-color: #f07623;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-size: 25pt;
+    margin-left: 10px;
+    }
